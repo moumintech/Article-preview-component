@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <script src="script.js" defer></script>
 
     <link
       rel="icon"
@@ -19,7 +19,6 @@
 
     <title>Frontend Mentor | Article preview component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -52,22 +51,24 @@
               <h2>Michelle Appleton</h2>
               <p>28 Jun 2020</p>
             </div>
-            <button class="share-button">
-              <img src="images/icon-share.svg" alt="Share icon" />
-            </button>
-            <div class="social-icons hidden"> 
-              <a href="https://www.facebook.com" target="_blank">
-                <img src="images/icon-facebook.svg" alt="Facebook icon" />
-              </a>
-              <a href="https://www.twitter.com" target="_blank">
-                <img src="images/icon-twitter.svg" alt="Twitter icon" />
-              </a>
-              <a href="https://www.pinterest.com" target="_blank">
-                <img src="images/icon-pinterest.svg" alt="Pinterest icon" />
-              </a>
+            <div class="share-container">
+              <button class="share-button">
+                <img src="images/icon-share.svg" alt="Share icon" />
+              </button>
+              <div class="social-icons hidden">
+                <span class="share-label">SHARE</span>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="images/icon-facebook.svg" alt="Facebook" />
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                  <img src="images/icon-twitter.svg" alt="Twitter" />
+                </a>
+                <a href="https://www.pinterest.com" target="_blank">
+                  <img src="images/icon-pinterest.svg" alt="Pinterest" />
+                </a>
               </div>
-            </div> 
-              </div>
+            </div>
+          </div>
         </div>
       </article>
     </main>
@@ -81,5 +82,4 @@
     </footer>
      -->
   </body>
-  <script src="script.js"></script>
 </html>
