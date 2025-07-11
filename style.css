@@ -72,27 +72,37 @@ body {
   display: inline-block;
 }
 .share-button {
-  padding: 12px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
   border-radius: 50%;
   border: none;
   cursor: pointer;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+.share-button img {
+  width: 24px;
+  height: 24px;
+  margin: 1rem;
 }
 .social-icons {
   position: absolute;
   bottom: 100%;
   right: 0;
+
   transform: translateY(-10px);
   display: flex;
   align-items: center;
-  gap: 12px;
+
   background-color: hsl(217, 19%, 35%);
   padding: 12px 16px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   color: white;
-  font-size: 12px;
+  padding: 1rem;
   white-space: nowrap;
   transition: opacity 0.2s ease, transform 0.2s ease;
   opacity: 0;
@@ -108,7 +118,11 @@ body {
   border-style: solid;
   border-color: hsl(217, 19%, 35%) transparent transparent transparent;
 }
-
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+}
 .share-label {
   letter-spacing: 4px;
   font-size: 10px;
