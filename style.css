@@ -158,8 +158,12 @@ body {
   .content {
     padding: 20px;
   }
-
-  .share-container {
+  .author.sharing > img,
+  .author.sharing .author-info,
+  .author.sharing .share-button {
+    display: none !important;
+  }
+  .author.sharing .share-container {
     position: static;
     display: flex;
     justify-content: space-between;
@@ -171,6 +175,17 @@ body {
   .share-button {
     display: inline-flex;
   }
+  .author.sharing .social-icons {
+    display: flex;
+
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transition: opacity 0.2s ease;
+  }
+  .author.sharing .social-icons::after,
+  .author.sharing .share-label {
+    display: none !important;
+  }
   .social-icons {
     display: flex;
     gap: 16px;
@@ -178,13 +193,12 @@ body {
     pointer-events: none;
     transition: opacity 0.2s ease;
   }
-
   .social-icons:not(.hidden) {
     opacity: 1;
     pointer-events: auto;
   }
 
-  .social-icons a img {
+  .author.sharing .social-icons a img {
     width: 24px;
     height: 24px;
   }
