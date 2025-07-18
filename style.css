@@ -210,14 +210,18 @@ body {
     order: 2;
   }
   .author.sharing .share-button {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 0;
     background-color: hsl(210, 46%, 85%);
     border: none;
     border-radius: 50%;
-    align-items: center;
+    display: flex !important;
+    position: relative !important;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 0;
   }
   .author.sharing > img,
   .author.sharing .author-info {
@@ -226,7 +230,7 @@ body {
 
   .author.sharing .share-container {
     display: flex !important;
-    position: static !important;
+    position: absolute !important;
     left: 0;
     right: 0;
     bottom: 0;
