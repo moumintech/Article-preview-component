@@ -60,4 +60,4 @@ The biggest challenge was handling the **mobile share popup visibility and posit
 
 ## Deploy
 
-👉 You can view the live demo here: [Live Site](#) <!-- Replace with your real deployment link (Netlify, GitHub Pages...) -->
+👉 You can view the live demo here: [Live Site](#https://arcticle.netlify.app/)
