@@ -2,10 +2,6 @@
 
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
 
-# Frontend Mentor - Article Preview Component
-
-![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -60,4 +56,4 @@ The biggest challenge was handling the **mobile share popup visibility and posit
 
 ## Deploy
 
-👉 You can view the live demo here: [Live Site](#https://arcticle.netlify.app/)
+You can view the live demo here: [Live Site](https://arcticle.netlify.app/)
